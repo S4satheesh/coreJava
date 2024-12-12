@@ -21,5 +21,9 @@ public class HashSetStringExample {
         System.out.println("Testing Contains inBuild function.."+ setContains);
         boolean setEmpty = sampleSet.isEmpty();
         System.out.println("Testing isEmpty inBuild function.."+ setEmpty);
+
+        //Using Set inBuild function Equals.
+        boolean setEquals = sampleSet.equals("pandu");
+        System.out.println("Testing equals inBuild function.." + setEquals );
     }
 }
