@@ -1,6 +1,6 @@
 package org.example;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +13,7 @@ public class ArrayListExampleInSelenium {
     public static void main(String[] args) {
         // Setup WebDriver (Assuming you have the correct WebDriver executable)
         //System.setProperty("Webdriver.chrome.driver", "path/to/chromedriver");
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         // Navigate to a sample website
